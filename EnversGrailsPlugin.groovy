@@ -37,27 +37,14 @@ class EnversGrailsPlugin {
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp",
-            "grails-app/domain/net/lucasward/grails/plugin/User.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/Customer.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/Address.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/OrderEntry.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/State.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/AbstractPlayer.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/AmateurPlayer.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/ProfessionalPlayer.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/BaseballPlayer.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/FootballPlayer.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/entry/AbstractPerformanceYear.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/entry/AmateurPerformanceYear.groovy",
-            "grails-app/domain/net/lucasward/grails/plugin/inheritance/entry/ProfessionalPerformanceYear.groovy",
+            "grails-app/domain/**",
             "src/groovy/net/lucasward/grails/plugin/StubSpringSecurityService.groovy",
             "src/java/net/lucasward/grails/plugin/Book.java",
             "src/java/net/lucasward/grails/plugin/SpringSecurityRevisionListener.java",
             "src/java/net/lucasward/grails/plugin/SpringSecurityServiceHolder.java",
             "src/java/net/lucasward/grails/plugin/UserRevisionEntity.java",
             "grails-app/conf/hibernate/hibernate.cfg.xml",
-            "lib/envers-1.2.2.ga-sources.jar",
-            "lib/envers-1.2.2.ga.jar"
+			"web-app/**"
     ]
 
     // TODO Fill in these fields
