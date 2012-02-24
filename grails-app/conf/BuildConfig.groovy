@@ -49,7 +49,9 @@ grails.project.dependency.resolution = {
         compile ('org.hibernate:hibernate-envers:3.6.7.Final') {
             excludes 'org.hibernate','commons-logging', 'javassist'
         }
-        compile 'mysql:mysql-connector-java:5.1.14'
+        compile('mysql:mysql-connector-java:5.1.14') {
+            export = false
+        }
 
         test('joda-time:joda-time:1.6.2',
 			 'org.gmock:gmock:0.8.2') {
