@@ -1,4 +1,4 @@
-<plugin name='envers' version='0.2.0' grailsVersion='2.0.0 &gt; *'>
+<plugin name='envers' version='0.2-SNAPSHOT' grailsVersion='2.0.0 &gt; *'>
   <author>Lucas Ward</author>
   <title>Grails Envers Plugin</title>
   <description>\
@@ -36,6 +36,7 @@ Plugin to integrate grails with Hibernate Envers
       <dependency group='joda-time' name='joda-time' version='1.6.2' />
     </test>
     <compile>
+      <dependency group='mysql' name='mysql-connector-java' version='5.1.14' />
       <dependency group='org.hibernate' name='hibernate-envers' version='3.6.7.Final' />
     </compile>
   </dependencies>

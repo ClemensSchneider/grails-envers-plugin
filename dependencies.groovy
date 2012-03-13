@@ -28,7 +28,7 @@ grails.project.dependency.resolution = {
 	}
 
 	dependencies {
-		compile ('org.jboss.envers:jboss-envers:1.2.3-hibernate-3.3') {
+		compile ('org.hibernate:hibernate-envers:3.6.7.Final') {
             transitive = false
         }
 	}
